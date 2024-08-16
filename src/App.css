@@ -1,38 +1,73 @@
-.App {
+.app {
   text-align: center;
+  margin-left: 20px;
+  font-family:cursive;
+  border-width: 10px;
+  color:white
+}
+input {
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 10%;
+  border-width: 5px;
+  border-color: green;
+}
+button {
+  padding: 10px;
+  cursor: pointer;
+  border-width: 5px;
+  border-radius: 10%;
+  border-color: green;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.error {
+  color: green;
+  font-size: 20px;
+  font-display: bold;
+  font-family: monospace;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.profile{
+  margin-top:10%;
+  margin-left: 25%;
+  padding: 20px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: 20px;
 }
-
-.App-link {
-  color: #61dafb;
+.profile:hover{
+    color:green;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+img{
+  border-radius: 50%;
+  height:60%;
+  margin-right: 20%;
+}
+body{
+  background-color: black;
+}
+a{
+  color:green;
+}
+a:hover{
+  color:purple;
+}
+@media screen and (max-width:900px)
+{
+  .profile{
+    margin-top:10%;
+    margin-left: 10%;
+    padding: 20px;
+    font-size: 20px;
+    display:inline;
   }
-  to {
-    transform: rotate(360deg);
+  img{
+    margin-left: 20%;
+    height:40%;
+  }
+  h1{
+    margin-left:5%;
+  }
+  input{
+    margin-left:15%;
   }
 }
